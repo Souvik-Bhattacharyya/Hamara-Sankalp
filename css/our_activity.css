@@ -1,0 +1,51 @@
+.activity-container {
+  padding: 1.5rem 1rem;
+}
+.card {
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.card a {
+  display: flex;
+  align-items: center;
+}
+.card h3 {
+  background-color: #fff;
+}
+.card a img {
+  margin: 5px;
+  max-width: 40px;
+  max-height: 40px;
+  object-fit: scale-down;
+}
+.card-header {
+  color: dodgerblue;
+}
+.card-title {
+  font-size: 24px;
+}
+.card-text {
+  font-size: 20px;
+  text-align: left;
+}
+.grid-album {
+  display: inline;
+}
+.grid-album img {
+  max-width: 60rem;
+  object-fit: scale-down;
+  margin-bottom: 3rem;
+}
+@media screen and (max-width: 600px) {
+  .grid-album {
+    display: block;
+  }
+  .grid-album img {
+    width: 100%;
+  }
+  .card {
+    width: 98%;
+  }
+}

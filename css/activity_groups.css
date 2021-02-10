@@ -1,0 +1,65 @@
+.row {
+  width: 99%;
+@media (max-width: 776px) {
+  .ribbon-img{
+    width: 100%;
+    height: 80px;
+  }
+}
+.ribbon-img{
+  margin-top:40px;
+  margin-left: 20px;
+  position: absolute;
+  width: 40%;
+  height: 80px;
+}
+.group-header {
+  width: 100%;
+  left: 11.2%;
+  margin-top: 3.4rem;
+  z-index: 1000;
+  position: relative;
+  color: #fff;
+  font-size: 22px;
+  transform: scale(1,2.2);
+  letter-spacing: .5px;
+}
+.group-logo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 5%;
+  width: 50%;
+}
+.group-logo img {
+  width: 90%;
+  max-width: 500px;
+  object-fit: scale-down;
+}
+.group-info {
+  font-size: 20px;
+}
+.group-info p {
+  padding: 5px;
+  margin-left: 5px;
+}
+.group-info li {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  list-style: none;
+}
+.group-info li::before {
+  content: "\2022";
+  font-size: 32px;
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.water-mark-art {
+  max-width: 100%;
+  object-fit: scale-down;
+  position: absolute;
+  opacity: 0.2;
+} 

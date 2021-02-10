@@ -1,0 +1,30 @@
+.notice-board {
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.event-img {
+  display: flex;
+  justify-content: center;
+}
+.event-img img {
+  width: 90%;
+  height: 90%;
+  object-fit: scale-down;
+}
+.event-list {
+  font-size: 18px;
+  line-height: 3rem;
+}
+.event-list p {
+  color: dodgerblue;
+}
+.event-list i {
+  color: limegreen;
+}
+.notice-board .card {
+  width: 18rem;
+  min-width: 18rem;
+  margin-left: 1rem;
+}
