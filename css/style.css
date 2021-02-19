@@ -8,6 +8,15 @@
   flex: 0 0 auto;
   width: 27%;
 }
+
+  .row {
+    margin-right: 0;
+}
+
+.alert{
+  
+}
+
 .footer {
   width: 100%;
   height: 2rem;
@@ -321,6 +330,9 @@ li {
 
 }
 @media (max-width: 600px) {
+  .alert p{
+    overflow-x: hidden;
+  }
   .title-section img {
     width: 64px;
     height: 64px;
